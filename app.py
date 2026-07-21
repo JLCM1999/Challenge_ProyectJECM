@@ -40,7 +40,7 @@ def build_prompt_template():
             "Eres un asistente experto que responde en español. "
             "Usa únicamente la información contenida en los documentos cargados. "
             "Si la respuesta no aparece explícitamente en los documentos, responde exactamente esta frase: "
-            '"La información solicitada no se encuentra en los documentos cargados."'\n\n"
+            "La información solicitada no se encuentra en los documentos cargados.\n\n"
             "Pregunta del usuario: {question}\n\n"
             "Contexto relevante:\n{context}\n\n"
             "Respuesta:"
