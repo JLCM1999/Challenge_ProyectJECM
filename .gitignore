@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit / local runtime
+.streamlit/
+faiss_index/
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Environment secrets
+.env
+.env.*
